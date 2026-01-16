@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖✨ **ITB CHATBOT** ✨🤖
+# **ITB CHATBOT** 
 ### *Implementasi Normalisasi Teks, Regex, dan Algoritma String Matching dalam Chatbot Informasi Khusus Institut Teknologi Bandung untuk Sistem Deteksi Intent Pengguna*
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&pause=500&color=00FFFF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%F0%9F%9A%80+INTELLIGENT+CHATBOT;%E2%9A%A1+FUZZY+MATCHING+POWER;%F0%9F%92%8E+NEON+TECH+STACK" alt="Typing SVG" />
@@ -18,7 +18,7 @@
 
 ---
 
-## 🌟 **PENJELASAN UMUM PROGRAM**
+## **PENJELASAN UMUM PROGRAM**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
@@ -26,13 +26,13 @@
 
 **ITB Chatbot** adalah sistem **cerdas berbasis AI** yang dirancang khusus untuk menjawab pertanyaan seputar **Institut Teknologi Bandung (ITB)**. Program ini menggunakan **Advanced Fuzzy Matching** dengan toleransi typo yang sangat tinggi, memungkinkan pengguna bertanya dengan bahasa natural tanpa khawatir salah ketik.
 
-### 🎯 **Key Features:**
-- 🧠 **Advanced Fuzzy Matching** - Toleransi typo hingga 90%
-- ⚡ **Real-time Response** - Jawaban instan < 1 detik
-- 🌐 **Full Stack** - Web interface + REST API
-- 📊 **382+ Data Entries** - Comprehensive ITB information
-- 🔍 **Multi-Algorithm** - Levenshtein, N-gram, TF-IDF, Soundex
-- 🎨 **Modern UI** - React + Vite dengan neon styling
+### **Key Features:**
+- **Advanced Fuzzy Matching** - Toleransi typo hingga 90%
+- **Real-time Response** - Jawaban instan < 1 detik
+- **Full Stack** - Web interface + REST API
+- **382+ Data Entries** - Comprehensive ITB information
+- **Multi-Algorithm** - Levenshtein, N-gram, TF-IDF, Soundex
+- **Modern UI** - React + Vite dengan neon styling
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d42b-4505-b9d4-f13b444d6e7a.gif" width="600">
@@ -40,43 +40,43 @@
 
 ---
 
-## 📚 **TEORI SINGKAT**
+## **TEORI SINGKAT**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284094-e50ceae2-de86-4dd6-a90c-78bcb3a926c0.gif" width="100">
 </div>
 
-### 🧮 **String Matching Algorithms**
+### **String Matching Algorithms**
 
 Program ini mengimplementasikan multiple algoritma untuk mencapai akurasi tinggi:
 
-#### **1. 🎯 Levenshtein Distance**
+#### **1. Levenshtein Distance**
 ```
 Edit distance untuk menghitung perbedaan karakter
 Contoh: "itb" ↔ "ITB" = distance 0
         "fakultaas" ↔ "fakultas" = distance 1
 ```
 
-#### **2. 🔤 N-Gram Similarity** 
+#### **2. N-Gram Similarity** 
 ```
 Membandingkan substring dengan panjang n
 Bigram: "itb" → ["it", "tb"]
 Trigram: "itb" → ["itb"]
 ```
 
-#### **3. 🔊 Soundex Phonetic Matching**
+#### **3. Soundex Phonetic Matching**
 ```
 Mencocokkan berdasarkan bunyi kata
 "teknologi" ↔ "teknoloji" → Same soundex code
 ```
 
-#### **4. 📊 TF-IDF + Cosine Similarity**
+#### **4. TF-IDF + Cosine Similarity**
 ```
 Vector space model untuk semantic matching
 Query vector vs Document vectors
 ```
 
-### 🏗️ **Architecture Pattern**
+### **Architecture Pattern**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284119-fbfd994d-8c2a-4c3d-9966-b43e43e20bca.gif" width="500">
@@ -86,51 +86,51 @@ Query vector vs Document vectors
 User Query → Preprocessing → Multi-Algorithm Matching → Response Ranking → Best Answer
 ```
 
-### ⚠️ **DISCLAIMER & LIMITATIONS**
+### **DISCLAIMER & LIMITATIONS**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
 </div>
 
-> **📌 Important Note:** Chatbot ini **BUKAN** seperti ChatGPT atau Large Language Model (LLM) pada umumnya!
+> **Important Note:** Chatbot ini **BUKAN** seperti ChatGPT atau Large Language Model (LLM) pada umumnya!
 
-#### 🎯 **Perbedaan Fundamental:**
+#### **Perbedaan Fundamental:**
 
 | **ITB Chatbot** | **ChatGPT/LLM** |
 |-----------------|------------------|
-| 🔍 **Rule-based + String Matching** | 🧠 **Neural Network Generation** |
-| 📊 **Pre-defined Dataset** (382 entries) | 🌐 **Massive Training Data** (Billions) |
-| 🎯 **Specific Domain** (ITB only) | 🌍 **General Knowledge** |
-| ⚡ **Fast & Deterministic** | 🤔 **Creative but Unpredictable** |
-| 💾 **Lightweight** (~50MB) | 🏗️ **Resource Heavy** (GBs) |
+| **Rule-based + String Matching** | **Neural Network Generation** |
+| **Pre-defined Dataset** (382 entries) | **Massive Training Data** (Billions) |
+| **Specific Domain** (ITB only) | **General Knowledge** |
+| **Fast & Deterministic** | **Creative but Unpredictable** |
+| **Lightweight** (~50MB) | **Resource Heavy** (GBs) |
 
-#### 🚫 **Keterbatasan Utama:**
+#### **Keterbatasan Utama:**
 
-- **📚 Limited Knowledge**: Hanya tahu tentang ITB berdasarkan dataset yang tersedia
-- **🤖 No Conversation Context**: Tidak mengingat percakapan sebelumnya
-- **❌ No Creative Generation**: Tidak bisa membuat jawaban baru, hanya matching dari database
-- **🎯 Domain Specific**: Tidak bisa menjawab pertanyaan di luar topik ITB
-- **📝 Static Responses**: Jawaban terbatas pada data yang sudah diproses
+- **Limited Knowledge**: Hanya tahu tentang ITB berdasarkan dataset yang tersedia
+- **No Conversation Context**: Tidak mengingat percakapan sebelumnya
+- **No Creative Generation**: Tidak bisa membuat jawaban baru, hanya matching dari database
+- **Domain Specific**: Tidak bisa menjawab pertanyaan di luar topik ITB
+- **Static Responses**: Jawaban terbatas pada data yang sudah diproses
 
-#### ✅ **Keunggulan:**
+#### **Keunggulan:**
 
-- **⚡ Ultra Fast**: Response time < 1 detik vs 5-10 detik ChatGPT
-- **🎯 High Accuracy**: 76.7% untuk domain ITB vs general LLM yang mungkin hallucination
-- **💰 Cost Effective**: Tidak butuh API subscription atau cloud computing
-- **🔒 Privacy**: Data tidak dikirim ke server eksternal
-- **📱 Offline Ready**: Bisa jalan tanpa internet connection
+- **Ultra Fast**: Response time < 1 detik vs 5-10 detik ChatGPT
+- **High Accuracy**: 76.7% untuk domain ITB vs general LLM yang mungkin hallucination
+- **Cost Effective**: Tidak butuh API subscription atau cloud computing
+- **Privacy**: Data tidak dikirim ke server eksternal
+- **Offline Ready**: Bisa jalan tanpa internet connection
 
-> **🎓 Academic Purpose:** Chatbot ini dibuat untuk mendemonstrasikan implementasi algoritma string matching dan fuzzy matching dalam konteks NLP, bukan untuk menggantikan general-purpose AI assistant.
+> **Academic Purpose:** Chatbot ini dibuat untuk mendemonstrasikan implementasi algoritma string matching dan fuzzy matching dalam konteks NLP, bukan untuk menggantikan general-purpose AI assistant.
 
 ---
 
-## 💻 **TECH STACK**
+## **TECH STACK**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-996024c84606.gif" width="100">
 </div>
 
-### 🐍 **Backend Technologies**
+### **Backend Technologies**
 <div align="center">
 
 | Technology | Version | Purpose |
@@ -144,7 +144,7 @@ User Query → Preprocessing → Multi-Algorithm Matching → Response Ranking �
 
 </div>
 
-### 🟢 **Frontend Technologies**
+### **Frontend Technologies**
 <div align="center">
 
 | Technology | Version | Purpose |
@@ -163,50 +163,50 @@ User Query → Preprocessing → Multi-Algorithm Matching → Response Ranking �
 
 ---
 
-## 📁 **STRUKTUR DIREKTORI**
+## **STRUKTUR DIREKTORI**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284111-1a8912e8-b298-40e3-a1b0-3cbe90ed9f3a.gif" width="100">
 </div>
 
 ```
-🤖 ITB_Chatbot/
-├── 📊 backend/                     # Python Backend
-│   ├── 🚀 app.py                   # Flask Application Entry
-│   ├── 🎮 controller/              # Request Controllers  
-│   ├── 🛤️  routes/                 # API Routes
-│   └── ⚙️  services/               # Business Logic
+ITB_Chatbot/
+├── backend/                     # Python Backend
+│   ├── app.py                   # Flask Application Entry
+│   ├── controller/              # Request Controllers  
+│   ├── routes/                 # API Routes
+│   └── services/               # Business Logic
 │
-├── 🌐 frontend/                    # React Frontend
-│   ├── 📂 public/                  # Static Assets
-│   ├── 🎨 src/                     # Source Code
-│   │   ├── 🧩 components/          # React Components
-│   │   ├── 🔧 services/            # API Calls
-│   │   └── 🎯 utils/               # Utilities
-│   └── 📄 Dockerfile               # Container Config
+├── frontend/                    # React Frontend
+│   ├── public/                  # Static Assets
+│   ├── src/                     # Source Code
+│   │   ├── components/          # React Components
+│   │   ├── services/            # API Calls
+│   │   └── utils/               # Utilities
+│   └── Dockerfile               # Container Config
 │
-├── 🧠 machinelearning/             # AI/ML Core
-│   ├── 🔍 matching.py              # Fuzzy Matching Algorithms
-│   ├── 📝 preprocessing.py         # Text Processing
-│   ├── 📊 dataLoader.py            # Data Management
-│   └── 🗃️  database/               # Data Storage
-│       ├── 📋 data/                # Raw CSV Files
-│       └── ✨ processed/           # Processed Data
+├── machinelearning/             # AI/ML Core
+│   ├── matching.py              # Fuzzy Matching Algorithms
+│   ├── preprocessing.py         # Text Processing
+│   ├── dataLoader.py            # Data Management
+│   └── database/               # Data Storage
+│       ├── data/                # Raw CSV Files
+│       └── processed/           # Processed Data
 │
-├── 🧪 debug/                       # Testing & Debug
-│   ├── 🎯 masterTestRunner.py      # Main Test Suite
-│   ├── 🔬 testDirectMatching.py    # Unit Tests
-│   └── 📈 *TestReports.json        # Test Results
+├── debug/                       # Testing & Debug
+│   ├── masterTestRunner.py      # Main Test Suite
+│   ├── testDirectMatching.py    # Unit Tests
+│   └── *TestReports.json        # Test Results
 │
-├── 📚 docs/                        # Documentation
-│   ├── 📖 README.md                # This File
-│   ├── 🚀 INSTALLATION_GUIDE.md    # Setup Guide
-│   └── 📊 *_REPORT.md              # Analysis Reports
+├── docs/                        # Documentation
+│   ├── README.md                # This File
+│   ├── INSTALLATION_GUIDE.md    # Setup Guide
+│   └── *_REPORT.md              # Analysis Reports
 │
-├── ⚙️  setup.py                    # Automated Installer
-├── 📦 package.json                 # npm Dependencies
-├── 📋 requirement.txt              # Python Dependencies
-└── 🔧 vite.config.js               # Vite Configuration
+├── setup.py                    # Automated Installer
+├── package.json                 # npm Dependencies
+├── requirement.txt              # Python Dependencies
+└── vite.config.js               # Vite Configuration
 ```
 
 <div align="center">
@@ -215,50 +215,50 @@ User Query → Preprocessing → Multi-Algorithm Matching → Response Ranking �
 
 ---
 
-## 🔄 **ALUR PROGRAM**
+## **ALUR PROGRAM**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284103-b0a2e8f2-0e2e-4c3b-9eeb-aa85ce9d8898.gif" width="100">
 </div>
 
-### 🌊 **Data Flow Architecture**
+### **Data Flow Architecture**
 
 ```mermaid
 flowchart TD
-    A[👤 User Input] -->|"apa itu ITB?"| B[🔍 Preprocessing]
-    B --> C[🧹 Text Cleaning]
-    C --> D[🎯 Multi-Algorithm Matching]
+    A[User Input] -->|"apa itu ITB?"| B[Preprocessing]
+    B --> C[Text Cleaning]
+    C --> D[Multi-Algorithm Matching]
     
-    D --> E[📊 Levenshtein Distance]
-    D --> F[🔤 N-Gram Similarity] 
-    D --> G[🔊 Soundex Matching]
-    D --> H[📈 TF-IDF Cosine]
+    D --> E[Levenshtein Distance]
+    D --> F[N-Gram Similarity] 
+    D --> G[Soundex Matching]
+    D --> H[TF-IDF Cosine]
     
-    E --> I[⚖️ Score Combination]
+    E --> I[Score Combination]
     F --> I
     G --> I  
     H --> I
     
-    I --> J[🏆 Best Match Selection]
-    J --> K[📝 Response Formatting]
-    K --> L[💬 User Response]
+    I --> J[Best Match Selection]
+    J --> K[Response Formatting]
+    K --> L[User Response]
     
     style A fill:#00ffff,stroke:#ff00ff,stroke-width:3px
     style L fill:#00ff00,stroke:#ffff00,stroke-width:3px
     style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px
 ```
 
-### ⚡ **Processing Pipeline**
+### **Processing Pipeline**
 
 <div align="center">
 
 | Step | Process | Input Example | Output Example |
 |------|---------|---------------|----------------|
-| 1️⃣ | **Input** | `"apakah ITB puya fakultaas teknik?"` | Raw query |
-| 2️⃣ | **Preprocessing** | Text cleaning | `"apakah itb puya fakultas teknik"` |
-| 3️⃣ | **Fuzzy Matching** | Query vs 382 entries | Similarity scores |
-| 4️⃣ | **Ranking** | Score calculation | Best matches ranked |
-| 5️⃣ | **Response** | Top match | ITB faculty information |
+| 1️ | **Input** | `"apakah ITB puya fakultaas teknik?"` | Raw query |
+| 2️ | **Preprocessing** | Text cleaning | `"apakah itb puya fakultas teknik"` |
+| 3️ | **Fuzzy Matching** | Query vs 382 entries | Similarity scores |
+| 4️ | **Ranking** | Score calculation | Best matches ranked |
+| 5️ | **Response** | Top match | ITB faculty information |
 
 </div>
 
@@ -268,50 +268,50 @@ flowchart TD
 
 ---
 
-## 👥 **USER JOURNEY**
+## **USER JOURNEY**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284107-024ff8a4-db94-49d0-b3b7-b83c502d144c.gif" width="100">
 </div>
 
-### 🌟 **Persona 1: ITB Student**
+### **Persona 1: ITB Student**
 
 ```
-🎓 "Mahasiswa ITB mencari info fakultas"
+"Mahasiswa ITB mencari info fakultas"
 
-Step 1: 💻 Buka web chatbot
-Step 2: 💬 Ketik "fakultas apa saja di ITB?"  
-Step 3: ⚡ Bot response dalam <1 detik
-Step 4: 📚 Dapat info lengkap 12 fakultas
-Step 5: 🔍 Follow-up question: "jurusan teknik informatika"
-Step 6: ✅ Satisfied dengan detailed answer
+Step 1: Buka web chatbot
+Step 2: Ketik "fakultas apa saja di ITB?"  
+Step 3: Bot response dalam <1 detik
+Step 4: Dapat info lengkap 12 fakultas
+Step 5: Follow-up question: "jurusan teknik informatika"
+Step 6: Satisfied dengan detailed answer
 ```
 
-### 🌟 **Persona 2: Calon Mahasiswa**
+### **Persona 2: Calon Mahasiswa**
 
 ```
-🏫 "Calon mahasiswa dengan banyak typo"
+"Calon mahasiswa dengan banyak typo"
 
-Step 1: 📱 Akses via mobile browser
-Step 2: 💬 Ketik "bagimana cara masuk ITB?" (typo: bagimana)
-Step 3: 🤖 Fuzzy matching deteksi maksud "bagaimana"
-Step 4: 📋 Dapat panduan lengkap admission process
-Step 5: 💡 Tertarik dengan advanced typo tolerance
-Step 6: 🎯 Explore lebih banyak features
+Step 1: Akses via mobile browser
+Step 2: Ketik "bagimana cara masuk ITB?" (typo: bagimana)
+Step 3: Fuzzy matching deteksi maksud "bagaimana"
+Step 4: Dapat panduan lengkap admission process
+Step 5: Tertarik dengan advanced typo tolerance
+Step 6: Explore lebih banyak features
 ```
 
-### 🌟 **Persona 3: Developer/Researcher**
+### **Persona 3: Developer/Researcher**
 
 ```
-👨‍💻 "Developer testing API capabilities"
+"Developer testing API capabilities"
 
-Step 1: 📖 Baca documentation
-Step 2: 🔧 Setup environment dengan `python setup.py dev`
-Step 3: 🚀 Start backend: `python app.py`
-Step 4: 🧪 Test API: POST /ask endpoint
-Step 5: 📊 Analyze fuzzy matching performance
-Step 6: 🔬 Run comprehensive test suite
-Step 7: ✨ Impressed dengan 76.7% overall accuracy
+Step 1: Baca documentation
+Step 2: Setup environment dengan `python setup.py dev`
+Step 3: Start backend: `python app.py`
+Step 4: Test API: POST /ask endpoint
+Step 5: Analyze fuzzy matching performance
+Step 6: Run comprehensive test suite
+Step 7: Impressed dengan 76.7% overall accuracy
 ```
 
 <div align="center">
@@ -320,41 +320,41 @@ Step 7: ✨ Impressed dengan 76.7% overall accuracy
 
 ---
 
-## 🎬 **HOW TO DEMO**
+## **HOW TO DEMO**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284104-4a2c9c1b-8a4c-4ad4-9db2-68de19d09752.gif" width="100">
 </div>
 
-### 🚀 **Quick Start Demo (5 minutes)**
+### **Quick Start Demo (5 minutes)**
 
-#### **1️⃣ One-Command Setup**
+#### **One-Command Setup**
 ```bash
-# 🔥 Automated installation
+# Automated installation
 python setup.py install
 
-# ⏱️ Expected time: 2-3 minutes
-# ✅ Will install Python + npm dependencies
-# ✅ Will build frontend for production  
-# ✅ Will verify all components
+# Expected time: 2-3 minutes
+# Will install Python + npm dependencies
+# Will build frontend for production  
+# Will verify all components
 ```
 
-#### **2️⃣ Start Services**
+#### **Start Services**
 ```bash
-# 🐍 Terminal 1: Backend
+# Terminal 1: Backend
 cd backend && python app.py
-# 🟢 Server starts on http://localhost:5000
+# Server starts on http://localhost:5000
 
-# 🌐 Terminal 2: Frontend  
+# Terminal 2: Frontend  
 npm run preview
-# 🟢 Frontend serves on http://localhost:4173
+# Frontend serves on http://localhost:4173
 ```
 
-#### **3️⃣ Demo Script**
+#### **Demo Script**
 ```bash
-# 💬 Open browser: http://localhost:4173
+# Open browser: http://localhost:4173
 
-# 🎯 Demo Questions:
+# Demo Questions:
 1. "apa itu ITB?"
    ➜ Shows basic ITB information
 
@@ -371,88 +371,88 @@ npm run preview
    ➜ Admission process information
 ```
 
-### 🧪 **Advanced Demo (10 minutes)**
+### **Advanced Demo (10 minutes)**
 
-#### **4️⃣ Testing Suite Demo**
+#### **Testing Suite Demo**
 ```bash
-# 🔬 Run comprehensive tests
+# Run comprehensive tests
 python debug/masterTestRunner.py
 
-# 📊 Expected results:
-# ✅ Basic Questions: 50.0%
-# ✅ Comprehensive: 100.0%  
-# ✅ Edge Cases: 80.0%
-# 🏆 Overall: 76.7% GOOD
+# Expected results:
+# Basic Questions: 50.0%
+# Comprehensive: 100.0%  
+# Edge Cases: 80.0%
+# Overall: 76.7% GOOD
 ```
 
-#### **5️⃣ API Demo**
+#### **API Demo**
 ```bash
 # 🔌 Test REST API directly
 curl -X POST http://localhost:5000/ask \
   -H "Content-Type: application/json" \
   -d '{"question": "fakultas ITB"}'
 
-# 📈 Response time: <1 second
-# 📋 JSON response with ITB faculty info
+# Response time: <1 second
+# JSON response with ITB faculty info
 ```
 
-#### **6️⃣ Fuzzy Matching Demo**
+#### **Fuzzy Matching Demo**
 ```bash
-# 🎯 Heavy typo tolerance test
+# Heavy typo tolerance test
 python debug/testDirectMatching.py
 
-# 💪 Test cases:
-# ✅ "apakah ITB puya fakultaas teknik?" → ✅ Match
-# ✅ "sejrah institut teknolgi bandng?" → ✅ Match  
-# ✅ "gmna cara msuk ITB yah?" → ✅ Match
+# Test cases:
+# "apakah ITB puya fakultaas teknik?" → Match
+# "sejrah institut teknolgi bandng?" → Match  
+# "gmna cara msuk ITB yah?" → Match
 ```
 
-### 🎥 **Demo Highlights**
+### **Demo Highlights**
 
 <div align="center">
 
 | Feature | Demo Time | Wow Factor |
 |---------|-----------|------------|
-| 🚀 **One-Command Setup** | 30 seconds | ⭐⭐⭐⭐⭐ |
-| 💬 **Web Interface** | 1 minute | ⭐⭐⭐⭐ |
-| 🤖 **Fuzzy Matching** | 2 minutes | ⭐⭐⭐⭐⭐ |
-| 🧪 **Testing Suite** | 2 minutes | ⭐⭐⭐⭐ |
-| 🔌 **API Integration** | 1 minute | ⭐⭐⭐ |
+| **One-Command Setup** | 30 seconds | ⭐⭐⭐⭐⭐ |
+| **Web Interface** | 1 minute | ⭐⭐⭐⭐ |
+| **Fuzzy Matching** | 2 minutes | ⭐⭐⭐⭐⭐ |
+| **Testing Suite** | 2 minutes | ⭐⭐⭐⭐ |
+| **API Integration** | 1 minute | ⭐⭐⭐ |
 
 </div>
 
-### 🎨 **Demo Script Template**
+### **Demo Script Template**
 
 ```
-🎤 "Selamat datang di demo ITB Chatbot!"
+"Selamat datang di demo ITB Chatbot!"
 
-🔥 "Ini adalah chatbot AI dengan fuzzy matching advanced 
+"Ini adalah chatbot AI dengan fuzzy matching advanced 
     yang bisa mengerti typo berat sekalipun!"
 
-🚀 "Mari kita mulai dengan one-command setup..."
+"Mari kita mulai dengan one-command setup..."
     [Run: python setup.py install]
 
-💻 "Sekarang kita start backend dan frontend..."
+"Sekarang kita start backend dan frontend..."
     [Start services]
 
-💬 "Mari kita test dengan pertanyaan normal dulu..."
+"Mari kita test dengan pertanyaan normal dulu..."
     [Type: "apa itu ITB?"]
 
-🤯 "Sekarang yang menarik - typo berat!"
+"Sekarang yang menarik - typo berat!"
     [Type: "apakah ITB puya fakultaas teknik?"]
 
-⚡ "Lihat! Bot masih bisa memahami meskipun banyak typo!"
+"Lihat! Bot masih bisa memahami meskipun banyak typo!"
 
-🧪 "Terakhir, mari kita lihat comprehensive testing..."
+"Terakhir, mari kita lihat comprehensive testing..."
     [Run: python debug/masterTestRunner.py]
 
-🎉 "Dan voila! ITB Chatbot dengan accuracy 76.7%!"
+"Dan voila! ITB Chatbot dengan accuracy 76.7%!"
 ```
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284126-dd9ca0b4-94a7-4b6e-9bf1-7a48e6e4b7cc.gif" width="600">
 
-### 🌟 **Ready to Experience the Future of ITB Information?** 🌟
+### **Ready to Experience the Future of ITB Information?**
 
 [![Get Started](https://img.shields.io/badge/🚀_GET_STARTED-NOW-00FFFF?style=for-the-badge&logo=rocket)](setup.py)
 [![Demo](https://img.shields.io/badge/🎬_LIVE_DEMO-AVAILABLE-FF00FF?style=for-the-badge&logo=play)](http://localhost:4173)
@@ -460,7 +460,7 @@ python debug/testDirectMatching.py
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-**Made with ⚡ by Lukas Raja Agripa | 13523158 | ITB - Informatika**
+**Made with by Lukas Raja Agripa | 13523158 | ITB - Informatika**
 
 **Licensed under the [MIT License](LICENSE).**
 
