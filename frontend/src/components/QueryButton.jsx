@@ -1,16 +1,19 @@
-import React from 'react' // import react
+import React from 'react'
 
-const QueryButton = ({ onClick, disabled = false }) => { // komponen query button
+const QueryButton = ({ onClick, disabled = false }) => {
   return (
     <button
-      className="query-button" // css class
-      onClick={onClick} // handler click
-      disabled={disabled} // disabled state
+      className="query-button"
+      onClick={onClick}
+      disabled={disabled}
+      aria-label="Kirim pesan / Send message"
     >
-      <span>Kirim</span> {/* text button */}
-      <span style={{ marginLeft: '0.5rem' }}>→</span> {/* arrow icon */}
+      <span>Kirim / Send</span>
+      <svg className="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
     </button>
   )
 }
 
-export default QueryButton // export komponen
+export default QueryButton

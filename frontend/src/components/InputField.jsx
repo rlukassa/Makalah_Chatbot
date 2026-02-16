@@ -1,16 +1,18 @@
-import React from 'react' // import react
+import React from 'react'
 
-const InputField = ({ value, onChange, onKeyDown }) => { // komponen input field
+const InputField = ({ value, onChange, onKeyDown, disabled }) => {
   return (
     <input
-      className="input-field" // css class
-      type="text" // tipe text
-      placeholder="Ketik pertanyaan tentang ITB..." // placeholder text
-      value={value} // value input
-      onChange={onChange} // handler change
-      onKeyDown={onKeyDown} // handler keydown
+      className="input-field"
+      type="text"
+      placeholder="Ketik pertanyaan... / Type a question..."
+      value={value}
+      onChange={onChange}
+      onKeyDown={onKeyDown}
+      disabled={disabled}
+      autoComplete="off"
     />
   )
 }
 
-export default InputField // export komponen
+export default InputField
